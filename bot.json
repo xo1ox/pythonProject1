@@ -1,0 +1,62 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hi", "hey", "Hi", "How are you?", "What's going on?", "Hello", "Good Day!"],
+    "bot_response": ["Hey there!", "Hello", "I'm well! How are you?", "Good to see you again!", "Hey there, how can I help you?"],
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["see you", "goodbye", "bye", "Bye!", "Good Bye!", "See you soon!", "Thank you. That was all."],
+    "bot_response": ["Bye!", "Until next time!", "We will met again.", "If you need more help, you know where to find me!", "Good Bye!", "See you later!"],
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you"],
+    "bot_response": "The pleasure is all mine!",
+    "required_words": ["nice", "meet", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["I", "need", "help", "Excel", "Microsoft Excel"],
+    "bot_response": "If you have problems with Excel, I can give you a link with a tutorial! https://learn.microsoft.com/en-us/office/client-developer/excel/excel-home",
+    "required_words": "Excel"
+  },
+  {
+    "response_type": "question",
+    "user_input": ["I", "need", "help", "Outlook", "Microsoft Outlook"],
+    "bot_response": "If you need help with Outlook: https://learn.microsoft.com/en-us/office/client-developer/outlook/outlook-home",
+    "required_words": "Outlook"
+  },
+  {
+    "response_type": "question",
+    "user_input": ["I", "need", "help", "Teams", "Microsoft Teams", "Can", "you", "me"],
+    "bot_response": "Here is a link for Microsoft Teams: https://learn.microsoft.com/en-us/microsoftteams/teams-overview",
+    "required_words": "Teams"
+  },
+    {
+    "response_type": "question",
+    "user_input": ["I", "need", "help", "Word", "Microsoft Word", "Can", "you", "me"],
+    "bot_response": "Here is a documentation for Microsoft Word: https://support.microsoft.com/en-us/word",
+    "required_words": "Word"
+  },
+  {
+    "response_type": "question",
+    "user_input": ["refund", "how", "can", "I", "get"],
+    "bot_response": "We don't offer refunds for free education.",
+    "required_words": ["refund", "i"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "are", "you"],
+    "bot_response": "I'm great! Thanks for asking.",
+    "required_words": ["how", "are", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["I need some help.","Can you help me with something?", "Could you help me?", "Please help me.", "I have a question!"],
+    "bot_response": ["How can I help you?","Sure I can! What is it?", "If I cannot help you, ask a colleague of mine. Write an email to: support@helpdesk.com"],
+    "required_words": ["support", "question", "help"]
+    }
+]
