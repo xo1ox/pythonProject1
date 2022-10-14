@@ -1,7 +1,7 @@
 import json
 import re
 import random_responses
-
+import random
 
 # Load JSON data
 def load_json(file):
@@ -54,9 +54,12 @@ def get_response(input_string):
 
     # If there is no good response, return a random one.
     if best_response != 0:
-        return response_data[response_index]["bot_response"]
-
-    return random_responses.random_string()
+        if isinstance(response_data[response_index]["bot_response"], str):
+            return response_data[response_index]["bot_response"]
+        else:
+            return random.choice(response_data[response_index]["bot_response"])
+    else:
+        return random_responses.random_string()
 
 
 while True:

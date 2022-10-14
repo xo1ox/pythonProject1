@@ -19,27 +19,27 @@
   },
   {
     "response_type": "question",
-    "user_input": ["I", "need", "help", "Excel", "Microsoft Excel"],
+    "user_input": ["I", "need", "help", "excel"],
     "bot_response": "If you have problems with Excel, I can give you a link with a tutorial! https://learn.microsoft.com/en-us/office/client-developer/excel/excel-home",
-    "required_words": "Excel"
+    "required_words": ["excel"]
   },
   {
     "response_type": "question",
-    "user_input": ["I", "need", "help", "Outlook", "Microsoft Outlook"],
+    "user_input": ["I", "need", "help", "outlook"],
     "bot_response": "If you need help with Outlook: https://learn.microsoft.com/en-us/office/client-developer/outlook/outlook-home",
-    "required_words": "Outlook"
+    "required_words": ["outlook"]
   },
   {
     "response_type": "question",
-    "user_input": ["I", "need", "help", "Teams", "Microsoft Teams", "Can", "you", "me"],
+    "user_input": ["I", "need", "help", "teams", "Can", "you", "me"],
     "bot_response": "Here is a link for Microsoft Teams: https://learn.microsoft.com/en-us/microsoftteams/teams-overview",
-    "required_words": "Teams"
+    "required_words": ["teams"]
   },
-    {
+  {
     "response_type": "question",
-    "user_input": ["I", "need", "help", "Word", "Microsoft Word", "Can", "you", "me"],
+    "user_input": ["I", "need", "help", "word", "Can", "you", "me"],
     "bot_response": "Here is a documentation for Microsoft Word: https://support.microsoft.com/en-us/word",
-    "required_words": "Word"
+    "required_words": ["word"]
   },
   {
     "response_type": "question",
